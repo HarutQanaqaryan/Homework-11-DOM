@@ -1,0 +1,57 @@
+body {
+    background-color: #b2e0e0;
+    margin: auto;
+    width: 1200px;
+    text-align: center;
+}
+
+.prev {
+    position: absolute;
+    top: 45%;
+    left: 250px;
+    font-size: 50px;
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.next {
+    position: absolute;
+    top: 45%;
+    right:  250px;
+    font-size: 50px;
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+main {
+    margin-top: 100px;
+    height: 400px;
+    position: relative;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 0.5px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+    background-color: #aaa;
+}
+.block {
+    display: block;
+}
+img {
+    display: none;
+    height: 400px;
+    margin-left: 300px;
+}

@@ -30,18 +30,26 @@ a:hover {
 
 .pos {
      position: absolute;
-    width: 100px;
+    width: 300px;
     top: 30px;
-    right: 100px;
+    right: 50px;
     color: rgb(0, 0, 0);
   }
 
   .pos2 {
     position: absolute;
-    width: 100px;
-    top: 120px;
-    right: 100px;
+    width: 300px;
+    top: 90px;
+    right: 50px;
     color: rgb(0, 0, 0);
+  }
+
+  .pos-x, .pos-y {
+      width: 70px;
+      font-size: 20px;
+      color:   #757575;
+      background-color:  #b2e0e0;
+      border-radius: 5px;
   }
 
 

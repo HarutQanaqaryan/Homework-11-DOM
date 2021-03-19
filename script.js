@@ -1,6 +1,8 @@
-const infoMousePosition = document.querySelector('.info-for-mouse-position');
+const posX = document.querySelector('.pos-x')
+const posY = document.querySelector('.pos-y')
 
 addEventListener('mousemove', (event) => {
-    infoMousePosition.innerHTML = 'posX=' + event.pageX + '<br /> posY=' + event.pageY;
+    posX.value = event.pageX
+    posY.value = event.pageY
 });
 
